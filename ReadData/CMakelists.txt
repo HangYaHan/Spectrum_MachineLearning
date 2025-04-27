@@ -1,0 +1,38 @@
+cmake_minimum_required(VERSION 3.16)
+
+# Project name
+project(Spectrum_MachineLearning)
+
+# Set C++ standard
+set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+
+# Add source files
+file(GLOB_RECURSE SOURCES "${CMAKE_SOURCE_DIR}/*.cpp")
+
+# Fallback if no sources are found
+if(SOURCES STREQUAL "")
+    message(FATAL_ERROR "No source files found in ${CMAKE_SOURCE_DIR}/src/")
+endif()
+
+# Add executable
+add_executable(Spectrum_MachineLearning
+    main.cpp
+    Spectrum.cpp 
+    FileSystemManger.cpp
+    Logger.cpp
+)
+
+# Include directories
+include_directories(${CMAKE_SOURCE_DIR}/include)
+
+# Link stdc++fs for filesystem
+target_link_libraries(Spectrum_MachineLearning stdc++fs)
+
+# Static linking
+set(CMAKE_EXE_LINKER_FLAGS "-static-libgcc -static-libstdc++")
+
+# Set runtime output directory
+set_target_properties(Spectrum_MachineLearning PROPERTIES
+    RUNTIME_OUTPUT_DIRECTORY "${CMAKE_SOURCE_DIR}/bin"
+)

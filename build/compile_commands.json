@@ -1,0 +1,26 @@
+[
+{
+  "directory": "D:/Code/Spectrum_MachineLearning/build",
+  "command": "D:\\FUCK\\Mingw\\mingw64\\bin\\g++.exe  @CMakeFiles/Spectrum_MachineLearning.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\Spectrum_MachineLearning.dir\\main.cpp.obj -c D:\\Code\\Spectrum_MachineLearning\\main.cpp",
+  "file": "D:/Code/Spectrum_MachineLearning/main.cpp",
+  "output": "CMakeFiles/Spectrum_MachineLearning.dir/main.cpp.obj"
+},
+{
+  "directory": "D:/Code/Spectrum_MachineLearning/build",
+  "command": "D:\\FUCK\\Mingw\\mingw64\\bin\\g++.exe  @CMakeFiles/Spectrum_MachineLearning.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\Spectrum_MachineLearning.dir\\Spectrum.cpp.obj -c D:\\Code\\Spectrum_MachineLearning\\Spectrum.cpp",
+  "file": "D:/Code/Spectrum_MachineLearning/Spectrum.cpp",
+  "output": "CMakeFiles/Spectrum_MachineLearning.dir/Spectrum.cpp.obj"
+},
+{
+  "directory": "D:/Code/Spectrum_MachineLearning/build",
+  "command": "D:\\FUCK\\Mingw\\mingw64\\bin\\g++.exe  @CMakeFiles/Spectrum_MachineLearning.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\Spectrum_MachineLearning.dir\\FileSystemManger.cpp.obj -c D:\\Code\\Spectrum_MachineLearning\\FileSystemManger.cpp",
+  "file": "D:/Code/Spectrum_MachineLearning/FileSystemManger.cpp",
+  "output": "CMakeFiles/Spectrum_MachineLearning.dir/FileSystemManger.cpp.obj"
+},
+{
+  "directory": "D:/Code/Spectrum_MachineLearning/build",
+  "command": "D:\\FUCK\\Mingw\\mingw64\\bin\\g++.exe  @CMakeFiles/Spectrum_MachineLearning.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\Spectrum_MachineLearning.dir\\Logger.cpp.obj -c D:\\Code\\Spectrum_MachineLearning\\Logger.cpp",
+  "file": "D:/Code/Spectrum_MachineLearning/Logger.cpp",
+  "output": "CMakeFiles/Spectrum_MachineLearning.dir/Logger.cpp.obj"
+}
+]

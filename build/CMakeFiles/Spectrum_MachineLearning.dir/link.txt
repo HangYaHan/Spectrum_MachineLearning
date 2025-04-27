@@ -1,0 +1,3 @@
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\Spectrum_MachineLearning.dir/objects.a
+D:\FUCK\Mingw\mingw64\bin\ar.exe qc CMakeFiles\Spectrum_MachineLearning.dir/objects.a @CMakeFiles\Spectrum_MachineLearning.dir\objects1.rsp
+D:\FUCK\Mingw\mingw64\bin\g++.exe -g -static-libgcc -static-libstdc++ -Wl,--whole-archive CMakeFiles\Spectrum_MachineLearning.dir/objects.a -Wl,--no-whole-archive -o D:\Code\Spectrum_MachineLearning\bin\Spectrum_MachineLearning.exe -Wl,--out-implib,libSpectrum_MachineLearning.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\Spectrum_MachineLearning.dir\linkLibs.rsp
